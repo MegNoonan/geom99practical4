@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-    <title>Esri Leaflet Tutorials: Display a map</title>
+    <title>Esri Leaflet Tutorials: Display a map - Modified to show Carden Alvar</title>
 
     <!-- Load Leaflet from CDN -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" crossorigin="" />
@@ -31,7 +31,10 @@
       }
     </style>
   </head>
-<!-- Changed to focus on the Carden area with a zoom of 11 to ensure enough of the area is visible-->
+<!-- Changed to focus on the Carden area with a zoom of 11 to ensure enough of the area is visible including some relevant anthropogenic features for orientation.
+Added NCC protected areas layer that was created by querying a protected area GDB for NCC owned areas and uploaded this feature layer to AGOL. Next changed the 
+background basemap to imagery since we will be using remote sensing tech and NCC, in general, displays their maps with a imagery background to help with restoration 
+initiatives. -->
   <body>
     <div id="map"></div>
 
