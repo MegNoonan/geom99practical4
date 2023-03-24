@@ -50,6 +50,13 @@
       L.esri.Vector.vectorBasemapLayer(basemapEnum, {
         apiKey: apiKey
       }).addTo(map);
+      
+      var NCC = L.esri
+       .featureLayer({
+         url: "https://services1.arcgis.com/pMeXRvgWClLJZr3s/arcgis/rest/services/ProtectedArea_Boundary/FeatureServer/0/"
+        });
+
+      NCC.addTo(map);
 
     </script>
 
