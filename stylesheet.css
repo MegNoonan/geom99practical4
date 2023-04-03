@@ -3,7 +3,9 @@ body, html {
   line-height: 1.8;
   font-family:Verdana,sans-serif;
 }
-
+.mainbox{
+	padding: 10%;
+}
 .bodybox{
 	background-color: #EBF5EE;
 	padding-right: 15%;
