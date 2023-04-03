@@ -1,0 +1,17 @@
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  font-family:Verdana,sans-serif;
+}
+
+.bodybox{
+	background-color: #EBF5EE;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-bottom: 5%;
+	padding-top: 5%;}
+  
+  @media (max-width: 1400px){ /*Responsive */
+	.bodybox{
+		flex-direction: column;
+	}
