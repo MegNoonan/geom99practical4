@@ -24,6 +24,6 @@ p{
 		flex-direction: column;
 	}
 
-	  @media (max-width: 900px)
-.screenshot {
-	max-width: 100%;}
+	  @media (max-width: 900px){
+		  .screenshot {
+			  max-width: 100%;}}
