@@ -21,7 +21,6 @@ p{
   
 .picture{
 	padding: 3px; /* quote box has different padding levels to make it left justified from center */
-	flex: 25%;
 	justify-content: center;
 
 }
