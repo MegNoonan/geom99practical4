@@ -19,11 +19,20 @@ p{
     	line-height: 155%;}
 
   
+.picture{
+	padding: 3px; /* quote box has different padding levels to make it left justified from center */
+	flex: 25%;
+
+}
   @media (max-width: 1400px){ /*Responsive */
 	.bodybox{
 		flex-direction: column;
+	  }}
+
+@media (max-width: 900px){
+	.pastprojects, .imgteam{
+		max-width: 100%;
+		padding: 5%;
 	}
 
-	  @media (max-width: 900px){
-		  .screenshot {
-			  max-width: 100%;}}
+}
