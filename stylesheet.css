@@ -20,7 +20,8 @@ p{
 
   
 .picture{
-	padding: 3px; /* quote box has different padding levels to make it left justified from center */
+	position: flex;
+	align-items: center;
 	justify-content: center;
 
 }
