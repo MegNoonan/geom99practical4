@@ -7,11 +7,13 @@ body, html {
 	padding: 10%;
 }
 .bodybox{
-	background-color: #EBF5EE;
-	padding-right: 15%;
-	padding-left: 15%;
-	padding-bottom: 5%;
-	padding-top: 5%;}
+	background-color: #d9d9d9;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 3%;
+	padding-top: 3%;}
+p{
+	color:#353535;}
   
   @media (max-width: 1400px){ /*Responsive */
 	.bodybox{
