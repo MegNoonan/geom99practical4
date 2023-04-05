@@ -31,6 +31,10 @@ margin-right: auto;
  
 }
 
+.column{
+	float:left;
+}
+
   @media (max-width: 1400px){ /*Responsive */
 	.bodybox{
 		flex-direction: column;
