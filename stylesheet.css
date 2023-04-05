@@ -34,8 +34,8 @@ margin-right: auto;
 .column {
   	float: left;
   	width: 33.33%;
-	padding: 5%;
-	color: #f5f5f5;
+	padding-right: 5%;
+	background-color: #f5f5f5;
 }
 
 /* Clear floats after the columns - from W3Schools*/
